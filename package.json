@@ -5,14 +5,18 @@
   "homepage": "https://mmdp8612.github.io/apirest-shoppingcart/",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm i",
-    "deploy": "node ./index.js",
+    "start": "node index.js",
+    "build": "echo 'El script de build no está definido para este proyecto'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Della Penna",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "gh-pages": "^5.0.0"
   }
 }
