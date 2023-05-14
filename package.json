@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Api REST Shopping Cart",
   "homepage": "https://mmdp8612.github.io/apirest-shoppingcart/",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./src/index.js",
     "build": "echo 'El script de build no está definido para este proyecto'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
