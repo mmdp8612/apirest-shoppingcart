@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm i",
-    "deploy": "npm ./index.js",
+    "deploy": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Della Penna",
