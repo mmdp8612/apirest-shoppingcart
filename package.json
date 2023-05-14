@@ -2,21 +2,13 @@
   "name": "apirest-shopping-cart",
   "version": "1.0.0",
   "description": "Api REST Shopping Cart",
-  "homepage": "https://mmdp8612.github.io/apirest-shoppingcart/",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
-    "build": "echo 'El script de build no está definido para este proyecto'",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js"
   },
   "author": "Martin Della Penna",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
